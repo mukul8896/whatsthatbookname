@@ -15,6 +15,14 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import jdk.internal.reflect.ReflectionFactory.GetReflectionFactoryAction;
 
+/**
+ * BookSearchEngine class for searching book on the bases of user query(title, author, plot etc.)
+ * 
+ * REST Assured API is used to request BookReads web services
+ * @author Mukul
+ *
+ */
+
 public class BookSearchEngine {
 	
 	private static String book_search_baseUrl="https://www.goodreads.com/search/index.xml";

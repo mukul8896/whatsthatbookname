@@ -16,7 +16,7 @@ import net.dv8tion.jda.api.OnlineStatus;
 public class WhatTheBookNameBot {
 	public static JDA jda;
 	public static void main(String[] args) throws LoginException, IllegalArgumentException {
-		jda= new JDABuilder(AccountType.BOT).setToken("NzE0ODQ3MDY1OTEzNTU3MDEz.Xs23pQ.pbJHfx1310nPMj7xvfEcrLOT-3E").build();
+		jda= new JDABuilder(AccountType.BOT).setToken("NzE0ODQ3MDY1OTEzNTU3MDEz.Xs8_WA.sqSA_b6-Z2ec7o5UZ0G61ProIl8").build();
 		jda.addEventListener(new Commands());
 	}
 }
